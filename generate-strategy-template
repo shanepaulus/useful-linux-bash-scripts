@@ -7,7 +7,7 @@ read -p "Please enter the name for the strategy: " strategy_name
 file_name="$PWD/$strategy_name"
 echo "Creating strategy template file: $file_name"
 
-cat << EOF > "$file_name"
+content=$(cat << EOF
 //+------------------------------------------------------------------+
 //|                                                     Template.mq5 |
 //|                                Copyright 2023, Shane Anil Paulus |
@@ -69,6 +69,7 @@ bool HasAnyOpenPosition() {
 }
 
 EOF
+)
 
 # Write the content to the file
 echo "$content" > "$file_name"
