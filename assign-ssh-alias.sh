@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Author : Shane Paulus
-# Copyright (c) https://shanepaulus.co.za
+# Copyright (c) https://shanepaulus.uk
 
 FileName=~/.ssh/config
 echo "This script is executed to modify the file $FileName file by adding known hosts."
