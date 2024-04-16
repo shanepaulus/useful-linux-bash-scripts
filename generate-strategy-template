@@ -10,10 +10,10 @@ echo "Creating strategy template file: $file_name"
 content=$(cat << EOF
 //+------------------------------------------------------------------+
 //|                                                     Template.mq5 |
-//|                                Copyright 2023, Shane Anil Paulus |
+//|                                     Copyright 2023, Shane Paulus |
 //|                                           https://shanepaulus.uk |
 //+------------------------------------------------------------------+
-#property copyright "Copyright 2023, Shane Anil Paulus"
+#property copyright "Copyright 2023, Shane Paulus"
 #property link      "https://shanepaulus.uk"
 #property version   "1.00"
 

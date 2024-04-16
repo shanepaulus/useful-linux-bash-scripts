@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # Author : Shane Paulus
-# Copyright (c) https://shanepaulus.co.za
+# Copyright (c) https://shanepaulus.uk
 
 intellij_path="/opt/idea"
 gradle_path="/opt/gradle"
 maven_path="/opt/maven"
 
-echo "This script hass been designed to prepare a Java dev environment by doing the following:"
+echo "This script has been designed to prepare a Java dev environment by doing the following:"
 echo "  1. Download and extract Intellij Community Edition (Intellij is the BEST)."
 echo "  2. Download and extract Gradle (latest)."
 echo "  3. Download and extract Maven (latest)."
 echo "Do you want to continue? (Y/n)"
 
-# TODO: incorperate installing Java itself openjdk-17-jdk
+# TODO: incorporate installing Java itself openjdk-17-jdk
 
 read prompt
 
