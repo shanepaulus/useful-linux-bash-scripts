@@ -2,6 +2,8 @@
 
 ##### Script #1:
 ##### assign-ssh-alias.sh
+###### This script helps in adding an alias to a client when you want to use ssh by hostname and not IP Address.
+###### Obviously not needed when you have a DNS server with IPV4 DNS entries for routing.
 ###### 1. Run ```sh assign-ssh-alias.sh``` and follow the prompts!
 
 ##### Script #2:
