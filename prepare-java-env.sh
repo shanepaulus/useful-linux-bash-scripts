@@ -41,7 +41,7 @@ then
     # Download Intellij
     sleep 0.500
     echo "Downloading Intellij....."
-    curl -o idea.tar.gz -L "https://download.jetbrains.com/idea/ideaIC-2024.1.3.tar.gz"
+    curl -o idea.tar.gz -L "https://download.jetbrains.com/idea/ideaIC-2024.2.1.tar.gz"
     sudo tar -xvzf idea.tar.gz -C $intellij_path
     sudo mv -f $intellij_path/idea*/* $intellij_path
     sudo rm -rf $intellij_path/idea*
