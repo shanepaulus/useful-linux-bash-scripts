@@ -49,7 +49,7 @@ then
     # Download Gradle
     sleep 0.500
     echo "Downloading Gradle....."
-    curl -o gradle.zip -L "https://services.gradle.org/distributions/gradle-8.2.1-bin.zip"
+    curl -o gradle.zip -L "https://services.gradle.org/distributions/gradle-8.11.1-bin.zip"
     sudo unzip gradle.zip -d $gradle_path
     sudo mv -f $gradle_path/gradle*/* $gradle_path
     sudo rm -rf $gradle_path/gradle*
